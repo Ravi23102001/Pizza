@@ -1,0 +1,145 @@
+@font-face {
+    font-family: myFont;
+    src: url(./fontawesome-webfont.woff);
+}
+@font-face {
+    font-family: style;
+    src: url(./Saturday.otf);
+   
+}
+
+
+body{
+    font-family: myFont;
+    /* padding: 0; */
+    /* color: whitesmoke; */
+}
+.img1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.img1 img{
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+
+    
+    
+}
+.first{
+    height: 100vh;
+}
+.content, .pa{
+    padding: 100px 0;
+
+}
+h1, nav{
+    font-family: style !important;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.cont{
+    /* font-family: style !important; */
+    color: whitesmoke;
+    font-weight: bold;
+    position: relative;
+    
+
+    
+}
+.pizza{
+    width: 150px;
+    height: 150px;
+    border: 2px solid yellow;
+}
+
+.radius{
+    border-radius: 0 0 0 50px;
+   
+}
+.card1{
+    background-color: rgb(231, 155, 155);
+    border-radius: 15px 15px 0 50px;
+    height: 200px;
+    
+}
+.card1 img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    transition: 0.3s linear;
+    filter: grayscale(1);
+    
+}
+.card1 img:hover{
+    transform: scale(1.15);
+    filter: grayscale(0);
+    transform: rotate(360deg);
+}
+.bor{
+    border-radius: 20px;
+    background-color: #555454;
+    color: whitesmoke;
+}
+.fa-cart-shopping{
+    background-color: yellow;
+    padding: 12px;
+    border-radius: 50%;
+}
+.pizzaImg img{
+    height: 80vh;
+}
+.form{
+    height: 350px !important;
+    line-height: 100px;
+}
+.client1{
+    width: 130px;
+    height: 130px;
+    background-color: yellow;
+    padding: 6px;
+}
+.cust{
+    position: relative;
+}
+.cust::before{
+    content: "";
+    position: absolute;
+    left: 70px;
+    z-index: -1;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    
+    transform: rotate(45deg) translateX(-50%);
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(7, 7, 7, 0.397); 
+    border-radius: 10px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0f0f0fb0; 
+  }
